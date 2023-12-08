@@ -1,0 +1,251 @@
+/* styles.css */
+
+body {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.428571429
+}
+
+
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: calc(var(--bs-gutter-x)*.5);
+    padding-right: calc(var(--bs-gutter-x)*.5);
+    width: 100%;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.btn-default {
+    background-color: #fff;
+    border-color: #ccc;
+    color: #333
+}
+
+.btn-default:hover {
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    color: #333;
+    text-decoration: none
+}
+
+.btn-default:focus {
+    background-color: #e6e6e6;
+    border-color: #8c8c8c;
+    color: #333
+}
+
+.btn-default:active {
+    background-color: #d4d4d4;
+    border-color: #8c8c8c;
+    color: #333
+}
+
+.dropdown-item:active {
+    background-color: #d9dbdc
+}
+
+.redirectButtons {
+    padding-top: 10px
+}
+
+.redirectBack,.redirectGo {
+    display: inline-block;
+    margin-top: 10px
+}
+
+.redirectLinkBlock {
+    padding-bottom: 5px;
+    padding-top: 5px
+}
+
+.redirectLink {
+    font-size: 100%;
+    color: rgb(255, 30, 30);
+    word-break: break-all
+}
+
+.redirectLinkBold {
+    font-weight: 700
+}
+
+.redirectBack {
+    margin-right: 10px
+}
+
+.redirectGo {
+    margin-left: 10px
+}
+
+.redirectInfo {
+    color: gray;
+    font-size: 90%
+}
+
+#redirectRememberWidget {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    min-height: 22px
+}
+
+.h1,h1 {
+    font-size: 22pt;
+    line-height: 28pt
+}
+
+.h1,.h2,h1,h2 {
+    font-weight: 400
+}
+
+.h2,h2 {
+    font-size: 18pt;
+    line-height: 26pt
+}
+
+.h3,h3 {
+    font-size: 16pt;
+    font-weight: 400;
+    line-height: 1.58
+}
+
+.h1,.h2,.h3,h1,h2,h3 {
+    margin-bottom: 10px;
+    margin-top: 20px
+}
+
+.mainTableTopMiddle {
+    background-color: #ffdf5c;
+    border: 0;
+    margin-bottom: 20px;
+    width: 100%
+}
+
+.topSubmenu {
+    margin-bottom: 10px
+}
+
+.topSubmenu .list-group-item {
+    background-color: #fff2bb;
+    cursor: pointer
+}
+
+.topSubmenu .list-group-item a,.topSubmenu .list-group-item a:visited {
+    color: #000
+}
+
+.topSubmenu .list-group-item.active {
+    background-color: #d7838c;
+    border-color: #d7838c
+}
+
+.dropDownOpen {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2),0 3px 10px 0 rgba(0,0,0,.19);
+    inset: 28px auto auto -50px;
+    margin: 0;
+    position: absolute
+}
+
+.dropDownButtons a,.dropDownButtons a:visited {
+    color: #000
+}
+
+.mainTableTopButtons {
+    padding-top: 9px
+}
+
+.topHeaderButtons {
+    font-size: 12px;
+    font-weight: 700
+}
+
+.container .text-muted {
+    margin: 10px 0 0
+}
+
+.footer {
+    font-size: 14px;
+    min-height: 52px
+}
+
+.footer>.container {
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.basePageFooterList {
+    float: right
+}
+
+.basePageFooterList li {
+    margin-right: 10px;
+    vertical-align: middle
+}
+
+.basePageFooterList li:last-of-type {
+    margin-right: 0
+}
+
+.basePageFooterList a {
+    color: gray;
+    text-decoration: none
+}
+
+.basePageFooterList a:hover {
+    color: #c51d1d;
+    text-decoration: underline
+}
+
+.customLinks a,.customLinks a:visited {
+    text-decoration: none
+}
+
+.customLinks a:hover {
+    text-decoration: underline
+}
+
+.dropDownButtons {
+    font-size: 90%
+}
+
+.topUserBtn:after {
+    vertical-align: middle
+}
+
+.topUserBtnText {
+    vertical-align: middle
+}
+
+.topUserBtnList {
+    margin-left: 3px
+}
+
+#loadingTextDiv {
+    font-weight: 700;
+    margin-bottom: 10px
+}
+
+.aligner,.loaderParent {
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.aligner {
+    min-height: 24em
+}
+
+.aligner-item {
+    flex: 1;
+    max-width: 50em
+}
+
+.redirectLinkWarning {
+    margin-top: 10px
+}
+
+  
+
